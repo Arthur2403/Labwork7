@@ -1,0 +1,44 @@
+body{
+    max-width: 1300px; 
+    max-height: 400px;
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+}
+.all{
+    text-align: center;
+}
+.blocks{
+    width: 200px;
+    height: 300px;
+    padding: 0px 20px;
+    display: inline-block;
+    margin: 0px 30px;
+    background-color: white;
+}
+h2{
+    border-bottom: 3px black dashed;
+}
+.allprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px ;
+}
+.Price{
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: right;
+    color: #e62626;
+}
+button{
+    margin: 0 auto;
+    height: 25px;
+    width: 85px;
+    background-color: #e62626;
+    color: white;
+    text-align: center;
+    display: block;
+}
